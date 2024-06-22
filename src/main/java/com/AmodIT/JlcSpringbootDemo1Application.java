@@ -17,6 +17,10 @@ public class JlcSpringbootDemo1Application implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		
 		System.out.println("*****************run() method from CommandLineRunner Interface**************");
+		// Task- 101 
+		int x = 10;
+		int y = 20;
+		int z = x+y;
 		
 	}
 
